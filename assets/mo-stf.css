@@ -1,0 +1,39 @@
+.mundoon { padding: 0px; background: #D2DEE4; border:1px #e1e5ed solid;  font-family: "Raleway"; color: #34495e;}
+.mundoon * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; outline:none !important; -webkit-box-shadow: none !important;}
+.mundoon a { text-decoration: none; color: #34495e;}
+
+.mundoon .header 		{ padding: 30px 20px; background: #492045; margin-bottom: 15px;}
+.mundoon .header .title { color: #FFF; font-size: 35px; line-height: 36px; text-transform: uppercase; font-weight: 700}
+.mundoon .header .title-text { color: #FF6249; font-size: 15px;}
+
+
+.mundoon .tabs 					{ font-family: "Raleway"; font-weight: 500; font-size: 16px; clear: both}
+.mundoon .tabs a.tab 			{ height: 60px; line-height: 60px; display: inline-block; padding: 0 30px; float:left; margin-right: 1px;  position: relative; bottom: -1px; background: #EEF3F5; text-align: center; cursor: pointer; -o-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px;}
+.mundoon .tabs a.tab:hover 		{ background: #EEF3F5; }
+.mundoon .tabs a.tab.active 	{ height: 61px; background: #FFF; position: relative; bottom: -1px;}
+
+.mundoon .tab-content 							{ padding: 15px; background: #FFF; clear:both;}
+.mundoon .tab-content .box 						{ background:#D2DEE4; border:1px #E7EEF1 solid; margin-bottom: 30px;  overflow: hidden; border-radius:5px;}
+.mundoon .tab-content .box .box-header 			{ padding: 20px;  background: #F9FCFD; }
+.mundoon .tab-content .box .box-header .title 	{ text-transform: uppercase; font-weight: 500; font-size: 22px; margin-bottom: 5px}
+.mundoon .tab-content .box .box-header .texto 	{ font-size: 15px }
+
+.mundoon .tab-content .box .lista-itens 					{ padding: 15px 15px 0px 15px; margin-left: -7px; margin-right: -7px }
+
+.mundoon .tab-content .box .item 							{ float: left; width: 14.2857143%;  padding-left: 7px; padding-right: 7px;}
+.mundoon .tab-content .box .item .filtro 					{ background:#FFF ; margin-bottom: 14px; border-radius:5px; border:1px #D2DEE4 solid;}
+.mundoon .tab-content .box .item .filtro .tax 				{  width: 100%; padding: 15px 10px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px; background: #FF6249; color: #FFF;  text-align: center; font-size: 14px; font-weight: 500; }
+.mundoon .tab-content .box .item .filtro .tax-title 		{ padding: 10px 15px 0 15px; text-align: center}
+.mundoon .tab-content .box .item .filtro input[type=text] 	{ width: 100%; background: #FFF; border-radius:5px; font-size: 13px;  text-align: center; padding: 15px; border:2px #E7EEF1 solid;}
+.mundoon .tab-content .box .item .filtro .check-item 		{ text-align: center; padding: 15px}
+
+
+
+
+
+.mo-checkbox 			                             { width: 76px; height: 40px; margin: 0 auto; background: #FFF; position: relative; border-radius: 5px; border: 2px #E5ECEF solid; }
+.mo-checkbox:after 		                             { content: 'OFF'; color: #999; position: absolute; right: 6px; z-index: 0; font-size: 13px; line-height: 37px; font-weight: 700; }
+.mo-checkbox:before 	                             { content: 'ON'; color: #FF6249; position: absolute; left: 8px; z-index: 0; font-size: 13px;  line-height: 37px;  font-weight: 700; }
+.mo-checkbox label 									 { display: block; width: 35px; height: 32px; cursor: pointer; position: absolute; border-radius: 3px;  top: 2px; left: 2px; z-index: 1;  transition: all 0.1s ease; background: #E5ECEF;}
+.mo-checkbox input[type=checkbox] 					 { visibility: hidden; }
+.mo-checkbox input[type=checkbox]:checked + label 	 { left: 35px; }
